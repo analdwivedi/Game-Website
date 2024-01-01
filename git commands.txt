@@ -1,0 +1,13 @@
+- git config --global user.name Noctis Lucis
+- git config --global user.email "dwivedi.anal@gmail.com"
+- touch .gitignore
+- git init (initializing the git repository)
+- git add . (to transfer all the files in staging area in github.)
+- git commit -m "Initial commit"
+- git status 
+- ssh-keygen -t ed25519 -C "your_email@example.com" (to get the generate key.)
+- tail <path to id_rsa.pub> (add this key to github account)
+- git remote add origin <ssh.url.git>
+git push origin master 
+
+
